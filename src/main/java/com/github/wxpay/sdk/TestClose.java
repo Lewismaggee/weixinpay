@@ -24,6 +24,7 @@ public class TestClose {
         Map<String, String> mapResult = WXPayUtil.xmlToMap(xmlResult);
         String tradeState = mapResult.get("trade_state");
         System.out.println(tradeState);
-        System.out.println("test....");
+        System.out.println("test");
+        System.out.println("test2...");
     }
 }
