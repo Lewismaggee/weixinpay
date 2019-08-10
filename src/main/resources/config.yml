@@ -1,0 +1,13 @@
+server_addr: "easy.echosite.cn:4443"
+
+trust_host_root_certs: false
+
+echosite_id: 18516272944
+
+echosite_token: $2y$10$dFJx8zJefAF4M09p2IHx2eJ507RwuiMhSbdK6sU.OOq874NNGNHMq
+
+tunnels:
+  name1:
+    subdomain: qicheng
+    proto:
+      http: 127.0.0.1:9102
